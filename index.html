@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -1018,7 +1018,9 @@
             margin-bottom: 10px;
             color: var(--primary);
         }
-.stat-value {
+}
+        
+        .stat-value {
             font-size: 24px;
             font-weight: 700;
             color: var(--light-gray);
@@ -1656,7 +1658,6 @@
                     <h3>No orders yet</h3>
                     <p>Orders will appear here when customers make purchases</p>
                 </div>
-            </div>
         </div>
     </section>
 
@@ -1861,8 +1862,9 @@
         let users = JSON.parse(localStorage.getItem('gracelordsocialhubUsers')) || [];
         
         // Check if admin account exists, if not create it
-        const adminEmail = 'kehindeolanrewaju165@gmail.com';
-        const adminPassword = 'Kehinde0101';
+        // UPDATED ADMIN CREDENTIALS
+        const adminEmail = 'Gracelord861@gmail.com';
+        const adminPassword = 'Admin@1';
         
         const adminExists = users.some(user => user.email === adminEmail);
         if (!adminExists) {
@@ -2036,8 +2038,7 @@
                 }
             });
         }
-        
-        function hideBottomNav() {
+function hideBottomNav() {
             document.querySelector('.bottom-nav').style.display = 'none';
         }
         
@@ -2087,7 +2088,8 @@
             showMessage(loginMessage, 'Invalid email or password', 'error');
             return false;
         }
-function registerUser(userData) {
+        
+        function registerUser(userData) {
             // Check if email already exists
             if (users.some(u => u.email === userData.email)) {
                 showMessage(registerMessage, 'Email already registered', 'error');
@@ -3029,7 +3031,8 @@ function registerUser(userData) {
                 if (e.target === orderDetailsModal) {
                     orderDetailsModal.style.display = 'none';
                 }
-if (e.target === previewModal) {
+                
+                if (e.target === previewModal) {
                     previewModal.style.display = 'none';
                 }
                 
@@ -3113,7 +3116,7 @@ if (e.target === previewModal) {
                     console.error('Upload error:', error);
                     showMessage(null, 'Error uploading product: ' + error.message, 'error');
                 }
-            });
+});
             
             // Tab switching
             tabs.forEach(tab => {
