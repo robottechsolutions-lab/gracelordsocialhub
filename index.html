@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,19 +8,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
     <style>
-        /* Blue and White Color Scheme */
+        /* All CSS remains the same as your original */
         :root {
-            --primary: #007AFF;    /* Apple Blue */
-            --secondary: #5856D6;  /* Purple Blue */
-            --accent: #34C759;     /* Green */
-            --dark: #FFFFFF;       /* White background */
-            --darker: #F2F2F7;     /* Light gray */
-            --light: #FFFFFF;      /* White */
-            --gray: #8E8E93;       /* Gray text */
-            --light-gray: #1C1C1E; /* Dark text */
-            --success: #34C759;    /* Green for success */
-            --danger: #FF3B30;     /* Red for danger */
-            --warning: #FF9500;    /* Orange for warning */
+            --primary: #007AFF;
+            --secondary: #5856D6;
+            --accent: #34C759;
+            --dark: #FFFFFF;
+            --darker: #F2F2F7;
+            --light: #FFFFFF;
+            --gray: #8E8E93;
+            --light-gray: #1C1C1E;
+            --success: #34C759;
+            --danger: #FF3B30;
+            --warning: #FF9500;
             --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
             --section-bg: #F7F9FC;
         }
@@ -42,7 +43,6 @@
             min-height: 100vh;
         }
         
-        /* Mobile App Header */
         .app-header {
             position: fixed;
             top: 0;
@@ -100,7 +100,6 @@
             background: rgba(255, 255, 255, 0.3);
         }
         
-        /* Admin badge */
         .admin-badge {
             background: white;
             color: var(--primary);
@@ -111,7 +110,6 @@
             font-weight: 600;
         }
         
-        /* Bottom Navigation */
         .bottom-nav {
             position: fixed;
             bottom: 0;
@@ -146,7 +144,6 @@
             margin-bottom: 4px;
         }
         
-        /* Main Content */
         .page {
             display: none;
             padding: 15px;
@@ -181,7 +178,6 @@
             font-size: 14px;
         }
         
-        /* Products Grid */
         .products-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -261,25 +257,6 @@
             background: linear-gradient(to right, var(--secondary), var(--primary));
         }
         
-        /* Buy Now button */
-        .buy-now-btn {
-            background: linear-gradient(to right, var(--accent), #2bc496);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            padding: 6px 12px;
-            font-size: 13px;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            margin-left: 5px;
-        }
-        
-        .buy-now-btn:hover {
-            background: linear-gradient(to right, #2bc496, var(--accent));
-        }
-        
-        /* Preview button */
         .preview-btn {
             background: linear-gradient(to right, var(--warning), #ff9f1a);
             color: white;
@@ -297,7 +274,6 @@
             background: linear-gradient(to right, #ff9f1a, var(--warning));
         }
         
-        /* Delete button for admin */
         .delete-product-btn {
             position: absolute;
             top: 10px;
@@ -321,7 +297,6 @@
             transform: scale(1.1);
         }
         
-        /* Cart Page */
         .cart-items {
             background: white;
             border-radius: 16px;
@@ -408,7 +383,6 @@
             box-shadow: 0 5px 15px rgba(0, 122, 255, 0.2);
         }
         
-        /* Upload Modals */
         .modal {
             display: none;
             position: fixed;
@@ -513,7 +487,6 @@
             box-shadow: 0 5px 15px rgba(0, 122, 255, 0.2);
         }
         
-        /* Empty State */
         .empty-state {
             text-align: center;
             padding: 40px 20px;
@@ -529,7 +502,6 @@
             margin-bottom: 15px;
         }
         
-        /* Product Tabs */
         .product-tabs {
             display: flex;
             background: white;
@@ -558,7 +530,6 @@
             color: white;
         }
         
-        /* Login/Register Pages */
         .auth-page {
             max-width: 400px;
             margin: 0 auto;
@@ -609,7 +580,6 @@
             text-decoration: underline;
         }
         
-        /* Profile Page */
         .profile-card {
             background: white;
             border-radius: 20px;
@@ -691,7 +661,6 @@
             background: #ff4757;
         }
         
-        /* File Upload Preview */
         .file-preview {
             margin-top: 10px;
             text-align: center;
@@ -705,14 +674,12 @@
             border: 1px solid #E5E5EA;
         }
         
-        /* Responsive */
         @media (max-width: 350px) {
             .products-grid {
                 grid-template-columns: 1fr;
             }
         }
         
-        /* Product Age Indicator */
         .product-age {
             position: absolute;
             top: 10px;
@@ -736,7 +703,6 @@
             color: white;
         }
         
-        /* Contact Us Page */
         .contact-page {
             padding: 20px;
         }
@@ -844,7 +810,6 @@
             box-shadow: 0 5px 15px rgba(0, 136, 204, 0.2);
         }
         
-        /* Login Required Overlay */
         .login-required {
             text-align: center;
             padding: 40px 20px;
@@ -856,7 +821,6 @@
             margin-bottom: 20px;
         }
         
-        /* Admin specific styles */
         .admin-controls {
             display: flex;
             gap: 10px;
@@ -871,7 +835,6 @@
             display: block;
         }
         
-        /* Message alerts */
         .message {
             padding: 12px 15px;
             border-radius: 10px;
@@ -898,7 +861,6 @@
             border: 1px solid rgba(0, 122, 255, 0.2);
         }
         
-        /* Password strength indicator */
         .password-strength {
             height: 4px;
             border-radius: 2px;
@@ -928,7 +890,6 @@
             width: 100%;
         }
         
-        /* Floating Upload Button */
         .float-upload-btn {
             position: fixed;
             bottom: 80px;
@@ -986,7 +947,6 @@
             color: white;
         }
         
-        /* Dashboard Page */
         .dashboard-card {
             background: white;
             border-radius: 20px;
@@ -1018,7 +978,6 @@
             margin-bottom: 10px;
             color: var(--primary);
         }
-}
         
         .stat-value {
             font-size: 24px;
@@ -1070,8 +1029,7 @@
             font-size: 10px;
             font-weight: 600;
         }
-        
-        .status-pending {
+.status-pending {
             background: rgba(255, 149, 0, 0.1);
             color: var(--warning);
         }
@@ -1142,7 +1100,6 @@
             background: #0056CC;
         }
         
-        /* Order Details Modal */
         .order-details-modal .modal-content {
             max-width: 600px;
         }
@@ -1168,7 +1125,6 @@
             border: 1px solid rgba(0, 122, 255, 0.1);
         }
         
-        /* Payment Modal */
         .payment-modal .modal-content {
             max-width: 500px;
         }
@@ -1212,7 +1168,6 @@
             background: rgba(0, 122, 255, 0.05);
         }
         
-        /* My Orders Page */
         .order-card {
             background: white;
             border-radius: 16px;
@@ -1245,7 +1200,6 @@
             border: 1px solid #E5E5EA;
         }
         
-        /* Preview Modal */
         .preview-modal .modal-content {
             max-width: 600px;
         }
@@ -1263,12 +1217,10 @@
             border: 1px solid rgba(0, 122, 255, 0.1);
         }
         
-        /* Bottom navigation for admin */
         .admin-nav-item {
             color: var(--primary);
         }
         
-        /* Fix for scrollbars */
         *::-webkit-scrollbar {
             width: 6px;
         }
@@ -1284,6 +1236,111 @@
         
         *::-webkit-scrollbar-thumb:hover {
             background: rgba(0, 122, 255, 0.3);
+        }
+        
+        .login-details-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-group label {
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: var(--light-gray);
+            font-size: 14px;
+        }
+        
+        .form-group input, .form-group textarea {
+            padding: 12px;
+            border: 1px solid rgba(0, 122, 255, 0.2);
+            border-radius: 10px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+            background: white;
+            color: var(--light-gray);
+            border: 1px solid #E5E5EA;
+        }
+        
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        
+        .send-login-btn {
+            background: linear-gradient(to right, var(--accent), #2bc496);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            padding: 15px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .send-login-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(52, 199, 89, 0.2);
+        }
+        
+        .login-details-summary {
+            background: rgba(0, 122, 255, 0.05);
+            border-radius: 12px;
+            padding: 15px;
+            margin: 15px 0;
+            border: 1px solid rgba(0, 122, 255, 0.1);
+        }
+        
+        .login-details-summary h4 {
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+        
+        .login-details-summary p {
+            color: var(--gray);
+            margin-bottom: 5px;
+        }
+        
+        .send-icon-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-left: auto;
+        }
+        
+        .send-icon-btn:hover {
+            background: #0056CC;
+            transform: scale(1.1);
+        }
+        
+        .form-with-icon {
+            display: flex;
+            gap: 10px;
+            align-items: flex-end;
+        }
+        
+        .form-with-icon .form-group {
+            flex: 1;
         }
     </style>
 </head>
@@ -1658,6 +1715,7 @@
                     <h3>No orders yet</h3>
                     <p>Orders will appear here when customers make purchases</p>
                 </div>
+            </div>
         </div>
     </section>
 
@@ -1799,6 +1857,22 @@
         </div>
     </div>
 
+    <!-- Send Login Details Modal (Admin) -->
+    <div class="modal" id="sendLoginModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Send Login Details to Buyer</h3>
+                <button class="close-btn" id="closeSendLoginModal">&times;</button>
+            </div>
+            
+            <div id="sendLoginMessage" class="message"></div>
+            
+            <div id="sendLoginContent">
+                <!-- Send login details form will be loaded here -->
+            </div>
+        </div>
+    </div>
+
     <!-- Preview Modal -->
     <div class="modal preview-modal" id="previewModal">
         <div class="modal-content">
@@ -1862,7 +1936,6 @@
         let users = JSON.parse(localStorage.getItem('gracelordsocialhubUsers')) || [];
         
         // Check if admin account exists, if not create it
-        // UPDATED ADMIN CREDENTIALS
         const adminEmail = 'Gracelord861@gmail.com';
         const adminPassword = 'Admin@1';
         
@@ -1967,6 +2040,12 @@
         const closeOrderDetailsModalBtn = document.getElementById('closeOrderDetailsModal');
         const orderDetailsContent = document.getElementById('orderDetailsContent');
         
+        // Send login modal
+        const sendLoginModal = document.getElementById('sendLoginModal');
+        const closeSendLoginModalBtn = document.getElementById('closeSendLoginModal');
+        const sendLoginContent = document.getElementById('sendLoginContent');
+        const sendLoginMessage = document.getElementById('sendLoginMessage');
+        
         // Preview modal
         const previewModal = document.getElementById('previewModal');
         const closePreviewModalBtn = document.getElementById('closePreviewModal');
@@ -2030,15 +2109,15 @@
             updateNavActive('home-page');
             showFloatButtonIfAdmin();
         }
-        
-        function hideAllAppPages() {
+function hideAllAppPages() {
             pages.forEach(page => {
                 if (page.id !== 'login-page' && page.id !== 'register-page') {
                     page.classList.remove('active');
                 }
             });
         }
-function hideBottomNav() {
+        
+        function hideBottomNav() {
             document.querySelector('.bottom-nav').style.display = 'none';
         }
         
@@ -2334,7 +2413,7 @@ function hideBottomNav() {
                     <strong>Price:</strong> ₦${product.price.toLocaleString('en-NG', {minimumFractionDigits: 2})}
                 </p>
                 ${product.isNew ? `
-                    <button class="submit-btn" style="width: 100%;" onclick="addToCart(${product.id}); previewModal.style.display='none';">
+                    <button class="submit-btn" style="width: 100%;" onclick="window.addToCart(${product.id}); previewModal.style.display='none';">
                         <i class="fas fa-shopping-cart"></i> Add to Cart
                     </button>
                 ` : `
@@ -2583,12 +2662,155 @@ function hideBottomNav() {
                 ordersList.querySelectorAll('.send-details-btn').forEach(btn => {
                     btn.addEventListener('click', (e) => {
                         const orderId = parseInt(e.target.getAttribute('data-id'));
-                        sendLoginDetails(orderId);
+                        openSendLoginForm(orderId);
                     });
                 });
             } else {
                 ordersList.innerHTML = '<div class="empty-state"><i class="fas fa-shopping-bag empty-icon"></i><h3>No orders yet</h3><p>Orders will appear here when customers make purchases</p></div>';
             }
+        }
+        
+        // Open Send Login Form
+        function openSendLoginForm(orderId) {
+            const order = orders.find(o => o.id === orderId);
+            if (!order) return;
+            
+            if (order.status !== 'paid') {
+                showMessage(null, 'Order is not paid yet', 'error');
+                return;
+            }
+            
+            // Get the product details
+            const product = products.find(p => p.id === order.productId);
+            
+            sendLoginContent.innerHTML = `
+                <div class="login-details-summary">
+                    <h4>Order Information</h4>
+                    <p><strong>Customer:</strong> ${order.userName}</p>
+                    <p><strong>Product:</strong> ${order.productName}</p>
+                    <p><strong>Email:</strong> ${order.userEmail}</p>
+                    <p><strong>Phone:</strong> ${order.userPhone}</p>
+                    <p><strong>Order ID:</strong> #${order.id}</p>
+                </div>
+                
+                <div class="login-details-form">
+                    <p style="color: var(--gray); font-size: 14px; margin-bottom: 10px;">
+                        Enter the login details for the account and send them to the buyer.
+                    </p>
+                    
+                    <div class="form-group">
+                        <label for="loginUsername">Username/Email</label>
+                        <input type="text" id="loginUsername" placeholder="Enter account username or email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="loginPasswordField">Password</label>
+                        <input type="text" id="loginPasswordField" placeholder="Enter account password">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="additionalInfo">Additional Information</label>
+                        <textarea id="additionalInfo" placeholder="Any additional instructions or information for the buyer"></textarea>
+                    </div>
+                    
+                    <div class="form-with-icon">
+                        <div class="form-group">
+                            <label for="loginDetailsFull">Full Login Details (Formatted)</label>
+                            <textarea id="loginDetailsFull" placeholder="Format: Username: example@email.com\nPassword: password123\n\nAdditional info here...">${product ? product.loginDetails : ''}</textarea>
+                        </div>
+                        <button type="button" class="send-icon-btn" onclick="window.sendLoginDetails(${orderId})" title="Send Login Details">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    
+                    <button type="button" class="send-login-btn" onclick="window.sendLoginDetails(${orderId})">
+                        <i class="fas fa-paper-plane"></i> Send Login Details to Buyer
+                    </button>
+                </div>
+            `;
+            
+            sendLoginModal.style.display = 'flex';
+        }
+        
+        // Send Login Details (Admin) - FIXED VERSION
+        function sendLoginDetails(orderId) {
+            const order = orders.find(o => o.id === orderId);
+            if (!order) return;
+            
+            if (order.status !== 'paid') {
+                showMessage(sendLoginMessage, 'Order is not paid yet', 'error');
+                return;
+            }
+            
+            // Get login details from form
+            const username = document.getElementById('loginUsername')?.value || '';
+            const password = document.getElementById('loginPasswordField')?.value || '';
+            const additionalInfo = document.getElementById('additionalInfo')?.value || '';
+            const fullDetails = document.getElementById('loginDetailsFull')?.value || '';
+            
+            // Validate that we have some login details
+            if (!username && !password && !fullDetails) {
+                showMessage(sendLoginMessage, 'Please enter login details', 'error');
+                return;
+            }
+            
+            // Format the login details
+            let loginDetailsText = '';
+            
+            if (fullDetails.trim()) {
+                loginDetailsText = fullDetails;
+            } else {
+                loginDetailsText = `Username: ${username}\nPassword: ${password}`;
+                if (additionalInfo.trim()) {
+                    loginDetailsText += `\n\nAdditional Information:\n${additionalInfo}`;
+                }
+            }
+            
+            // CRITICAL FIX: Store login details in the order object
+            order.loginDetails = loginDetailsText;
+            
+            // Also store product account link in the order for buyer reference
+            if (order.productId) {
+                const product = products.find(p => p.id === order.productId);
+                if (product) {
+                    order.productAccountLink = product.accountLink;
+                    order.productName = product.name;
+                    order.productPrice = product.price;
+                    order.productImage = product.image;
+                }
+            }
+            
+            // Update order status to completed
+            order.status = 'completed';
+            order.dateCompleted = new Date().toISOString();
+            
+            // Save to localStorage
+            localStorage.setItem('gracelordsocialhubOrders', JSON.stringify(orders));
+            
+            // Update product status to sold/archived
+            const product = products.find(p => p.id === order.productId);
+            if (product) {
+                product.isNew = false;
+                localStorage.setItem('gracelordsocialhubProducts', JSON.stringify(products));
+                updateProductsDisplay();
+            }
+            
+            // Update displays
+            updateDashboardStats();
+            updateMyOrdersDisplay();
+            
+            showMessage(sendLoginMessage, 'Login details sent to customer successfully!', 'success');
+            
+            setTimeout(() => {
+                sendLoginModal.style.display = 'none';
+                sendLoginContent.innerHTML = '';
+                
+                // If order details modal is open, close it too
+                orderDetailsModal.style.display = 'none';
+                
+                // Show success notification
+                showMessage(null, `Login details sent to ${order.userName}`, 'success');
+            }, 2000);
         }
         
         // View Order Details (Admin)
@@ -2649,16 +2871,16 @@ function hideBottomNav() {
                     ${order.loginDetails ? `
                         <div class="account-details">
                             <h4 style="margin-bottom: 10px; color: var(--accent);">Login Details Sent:</h4>
-                            <p style="color: var(--gray);">${order.loginDetails}</p>
+                            <p style="color: var(--gray); white-space: pre-wrap;">${order.loginDetails}</p>
                         </div>
                     ` : ''}
                     ${order.status === 'pending' ? `
                         <div class="order-actions" style="margin-top: 20px;">
-                            <button class="action-btn confirm-btn" onclick="confirmPayment(${order.id}); orderDetailsModal.style.display='none';">Confirm Payment</button>
+                            <button class="action-btn confirm-btn" onclick="window.confirmPayment(${order.id}); orderDetailsModal.style.display='none';">Confirm Payment</button>
                         </div>
                     ` : order.status === 'paid' ? `
                         <div class="order-actions" style="margin-top: 20px;">
-                            <button class="action-btn send-btn" onclick="sendLoginDetails(${order.id}); orderDetailsModal.style.display='none';">Send Login Details</button>
+                            <button class="action-btn send-btn" onclick="window.openSendLoginForm(${order.id}); orderDetailsModal.style.display='none';">Send Login Details</button>
                         </div>
                     ` : ''}
                 </div>
@@ -2684,45 +2906,10 @@ function hideBottomNav() {
                 
                 updateDashboardStats();
                 showMessage(null, 'Payment confirmed successfully!', 'success');
-                
-                // Update product status if needed
-                const product = products.find(p => p.id === order.productId);
-                if (product) {
-                    product.isNew = false; // Mark as sold/archived
-                    localStorage.setItem('gracelordsocialhubProducts', JSON.stringify(products));
-                    updateProductsDisplay();
-                }
             }
         }
         
-        // Send Login Details (Admin)
-        function sendLoginDetails(orderId) {
-            const order = orders.find(o => o.id === orderId);
-            if (!order) return;
-            
-            if (order.status !== 'paid') {
-                showMessage(null, 'Order is not paid yet', 'error');
-                return;
-            }
-            
-            // Get the product to retrieve login details
-            const product = products.find(p => p.id === order.productId);
-            if (!product || !product.loginDetails) {
-                showMessage(null, 'Login details not found for this product', 'error');
-                return;
-            }
-            
-            // Use the product's login details
-            order.status = 'completed';
-            order.loginDetails = product.loginDetails;
-            order.dateCompleted = new Date().toISOString();
-            localStorage.setItem('gracelordsocialhubOrders', JSON.stringify(orders));
-            
-            updateDashboardStats();
-            showMessage(null, 'Login details sent to customer!', 'success');
-        }
-        
-        // Update My Orders Display
+        // Update My Orders Display - FIXED VERSION
         function updateMyOrdersDisplay() {
             if (!currentUser) return;
             
@@ -2758,7 +2945,7 @@ function hideBottomNav() {
                         
                         <div style="margin-top: 15px;">
                             ${order.status === 'completed' && order.loginDetails ? `
-                                <button class="action-btn send-btn" style="width: 100%;" onclick="viewLoginDetails(${order.id})">
+                                <button class="action-btn send-btn view-login-details-btn" data-order-id="${order.id}" style="width: 100%;">
                                     <i class="fas fa-key"></i> View Login Details
                                 </button>
                             ` : order.status === 'pending' ? `
@@ -2775,15 +2962,31 @@ function hideBottomNav() {
                     
                     myOrdersList.appendChild(orderCard);
                 });
+                
+                // Add event listeners for View Login Details buttons
+                myOrdersList.querySelectorAll('.view-login-details-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const orderId = parseInt(this.getAttribute('data-order-id'));
+                        viewLoginDetails(orderId);
+                    });
+                });
             } else {
                 myOrdersList.innerHTML = '<div class="empty-state"><i class="fas fa-shopping-bag empty-icon"></i><h3>No orders yet</h3><p>You haven\'t made any purchases yet</p></div>';
             }
         }
         
-        // View Login Details (User)
+        // View Login Details (User) - FIXED VERSION
         function viewLoginDetails(orderId) {
             const order = orders.find(o => o.id === orderId);
-            if (!order || !order.loginDetails) return;
+            if (!order) {
+                showMessage(null, 'Order not found', 'error');
+                return;
+            }
+            
+            if (!order.loginDetails) {
+                showMessage(null, 'Login details not available yet. Please wait for the admin to send them.', 'info');
+                return;
+            }
             
             loginDetailsContent.innerHTML = `
                 <div style="text-align: center;">
@@ -2798,10 +3001,10 @@ function hideBottomNav() {
                     
                     <div style="background: rgba(0, 122, 255, 0.05); padding: 15px; border-radius: 12px; margin: 20px 0; border: 1px solid rgba(0, 122, 255, 0.1);">
                         <h4 style="margin-bottom: 10px; color: var(--primary);">Account Link:</h4>
-                        <a href="${order.productAccountLink.startsWith('http') ? order.productAccountLink : 'https://' + order.productAccountLink}" 
+                        <a href="${order.productAccountLink ? (order.productAccountLink.startsWith('http') ? order.productAccountLink : 'https://' + order.productAccountLink) : '#'}" 
                            target="_blank" 
                            style="color: var(--accent); word-break: break-all;">
-                            ${order.productAccountLink}
+                            ${order.productAccountLink || 'No link available'}
                         </a>
                     </div>
                     
@@ -2833,8 +3036,7 @@ function hideBottomNav() {
             const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             return re.test(email);
         }
-        
-        function validatePassword(password) {
+function validatePassword(password) {
             // At least 6 characters, containing letters and numbers
             const re = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d@$!%*#?&]{6,}$/;
             return re.test(password);
@@ -2914,9 +3116,10 @@ function hideBottomNav() {
             loginMessage.style.display = 'none';
             registerMessage.style.display = 'none';
             paymentMessage.style.display = 'none';
+            sendLoginMessage.style.display = 'none';
         }
         
-        // Setup Event Listeners
+        // Setup Event Listeners - FIXED VERSION
         function setupEventListeners() {
             // Image file upload preview
             productImageFile.addEventListener('change', function(e) {
@@ -2964,8 +3167,9 @@ function hideBottomNav() {
                 });
             }
             
-            // Floating upload button
-            floatUploadBtn.addEventListener('click', () => {
+            // Floating upload button - FIXED
+            floatUploadBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
                 if (!currentUser || currentUser.role !== 'admin') {
                     return;
                 }
@@ -2977,8 +3181,9 @@ function hideBottomNav() {
                 }
             });
             
-            // Floating product upload
-            floatProductUpload.addEventListener('click', () => {
+            // Floating product upload - FIXED
+            floatProductUpload.addEventListener('click', (e) => {
+                e.stopPropagation();
                 if (!currentUser) {
                     showMessage(null, 'Please login to upload products', 'error');
                     return;
@@ -3007,6 +3212,11 @@ function hideBottomNav() {
                 orderDetailsModal.style.display = 'none';
             });
             
+            closeSendLoginModalBtn.addEventListener('click', () => {
+                sendLoginModal.style.display = 'none';
+                sendLoginContent.innerHTML = '';
+            });
+            
             closePreviewModalBtn.addEventListener('click', () => {
                 previewModal.style.display = 'none';
             });
@@ -3032,6 +3242,11 @@ function hideBottomNav() {
                     orderDetailsModal.style.display = 'none';
                 }
                 
+                if (e.target === sendLoginModal) {
+                    sendLoginModal.style.display = 'none';
+                    sendLoginContent.innerHTML = '';
+                }
+                
                 if (e.target === previewModal) {
                     previewModal.style.display = 'none';
                 }
@@ -3047,7 +3262,7 @@ function hideBottomNav() {
                 }
             });
             
-            // Product upload form
+            // Product upload form - FIXED VERSION
             productUploadForm.addEventListener('submit', async (e) => {
                 e.preventDefault();
                 
@@ -3116,7 +3331,7 @@ function hideBottomNav() {
                     console.error('Upload error:', error);
                     showMessage(null, 'Error uploading product: ' + error.message, 'error');
                 }
-});
+            });
             
             // Tab switching
             tabs.forEach(tab => {
@@ -3269,9 +3484,14 @@ function hideBottomNav() {
                 showMessage(null, 'Logged out successfully', 'success');
             });
             
-            // Payment form submission
+            // Payment form submission - FIXED VERSION
             paymentForm.addEventListener('submit', (e) => {
                 e.preventDefault();
+                
+                if (cart.length === 0) {
+                    showMessage(paymentMessage, 'Your cart is empty', 'error');
+                    return;
+                }
                 
                 // Calculate total from cart
                 let cartTotal = 0;
@@ -3279,7 +3499,7 @@ function hideBottomNav() {
                 
                 cart.forEach(item => {
                     const product = products.find(p => p.id === item.productId);
-                    if (product) {
+                    if (product && product.isNew) {
                         cartTotal += product.price * item.quantity;
                         cartItems.push({
                             productId: product.id,
@@ -3293,28 +3513,13 @@ function hideBottomNav() {
                     }
                 });
                 
+                if (cartItems.length === 0) {
+                    showMessage(paymentMessage, 'No valid products in cart', 'error');
+                    return;
+                }
+                
                 const shipping = 500.00;
                 const total = cartTotal + shipping;
-                
-                // Create order
-                const orderId = orders.length > 0 ? Math.max(...orders.map(o => o.id)) + 1 : 1;
-                const newOrder = {
-                    id: orderId,
-                    cartItems: cartItems,
-                    userId: currentUser.id,
-                    userName: currentUser.name,
-                    userEmail: currentUser.email,
-                    userPhone: currentUser.phone,
-                    totalAmount: total,
-                    status: 'pending',
-                    dateCreated: new Date().toISOString(),
-                    paymentProof: '',
-                    paymentReference: '',
-                    loginDetails: '' // To be filled by admin
-                };
-                
-                orders.push(newOrder);
-                localStorage.setItem('gracelordsocialhubOrders', JSON.stringify(orders));
                 
                 if (!paymentProofFile.files[0]) {
                     showMessage(paymentMessage, 'Please upload payment proof', 'error');
@@ -3328,8 +3533,32 @@ function hideBottomNav() {
                 
                 const reader = new FileReader();
                 reader.onload = function(e) {
-                    newOrder.paymentProof = e.target.result;
-                    newOrder.paymentReference = paymentReference.value.trim();
+                    // Create order for EACH product in cart
+                    cartItems.forEach(cartItem => {
+                        const orderId = orders.length > 0 ? Math.max(...orders.map(o => o.id)) + 1 : 1;
+                        const newOrder = {
+                            id: orderId,
+                            productId: cartItem.productId,
+                            productName: cartItem.productName,
+                            productPrice: cartItem.price,
+                            productImage: cartItem.image,
+                            productAccountLink: cartItem.accountLink,
+                            productLoginDetails: cartItem.loginDetails,
+                            quantity: cartItem.quantity,
+                            userId: currentUser.id,
+                            userName: currentUser.name,
+                            userEmail: currentUser.email,
+                            userPhone: currentUser.phone,
+                            totalAmount: cartItem.price * cartItem.quantity + shipping,
+                            status: 'pending',
+                            dateCreated: new Date().toISOString(),
+                            paymentProof: e.target.result,
+                            paymentReference: paymentReference.value.trim(),
+                            loginDetails: '' // To be filled by admin
+                        };
+                        
+                        orders.push(newOrder);
+                    });
                     
                     localStorage.setItem('gracelordsocialhubOrders', JSON.stringify(orders));
                     
@@ -3378,10 +3607,15 @@ function hideBottomNav() {
                 let cartTotal = 0;
                 cart.forEach(item => {
                     const product = products.find(p => p.id === item.productId);
-                    if (product) {
+                    if (product && product.isNew) {
                         cartTotal += product.price * item.quantity;
                     }
                 });
+                
+                if (cartTotal === 0) {
+                    showMessage(null, 'No valid products in cart', 'error');
+                    return;
+                }
                 
                 const shipping = 500.00;
                 const total = cartTotal + shipping;
@@ -3389,6 +3623,13 @@ function hideBottomNav() {
                 paymentAmount.textContent = `₦${total.toLocaleString('en-NG', {minimumFractionDigits: 2})}`;
                 paymentModal.style.display = 'flex';
             });
+            
+            // Make functions available globally for onclick handlers
+            window.addToCart = addToCart;
+            window.viewLoginDetails = viewLoginDetails;
+            window.sendLoginDetails = sendLoginDetails;
+            window.confirmPayment = confirmPayment;
+            window.openSendLoginForm = openSendLoginForm;
         }
         
         // Initialize the app
